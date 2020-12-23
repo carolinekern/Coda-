@@ -1,0 +1,5 @@
+div {
+    border: 1px solid black;
+    margin: 50px;
+    padding: 25px 50px 75px 100px; /*4=cima(top), direita(right), baixo(bottom) e esquerda(left); 2=vertical e horizontal*/
+}

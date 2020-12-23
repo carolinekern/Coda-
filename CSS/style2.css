@@ -1,0 +1,26 @@
+h1 {
+    background-color: rgb(218, 213, 213);
+}
+
+div {
+    height: 50px; /*altura*/
+    width: 200px; /*largura*/
+    background-color: brown; /*cor de fundo*/
+}
+
+/* Estilo do Quadro Principal */
+#quadro2 {
+    opacity: 0.6; /*opacidade, quanto mais perto do zero mais transparente*/
+}
+
+/*
+    Estilo do segundo quadro
+    vai ficar com opacidade 0.3
+*/    
+#quadro3 {
+    opacity: 0.3; 
+}
+
+#quadro4 {
+    opacity: 0.1; 
+}

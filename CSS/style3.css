@@ -1,0 +1,15 @@
+#quadro {
+    height: 300px;
+    width: 300px;
+    /*background-color: red;*/
+    margin-top: 50px;
+    margin: 50px auto; /*margem, quando emitida fica tanto para esquerda quanto para direita(auto=automática na horizontal, fica centralizada*/
+    border: 5px solid red; /*dotted=pontilhado*/
+    border-radius: 50%; /*arredondamento de borda, 50% vira um círculo*/
+    /*ou border-style: solid; /*estilo da borda=sólida
+    border-width: 2px; /*tamanho da borda
+    border-color: blue; /*cor da borda*/
+    /*background-image: url('../imagens/cap1.jpg'); /*imagem de fundo .. para voltar uma pasta
+    *background-size: cover; /*cover: adapta a imagem; contain:mantém a proporção repetindo
+    *background-blend-mode: luminosity; efeitos, mesclando o efeito à cor de fundo*/
+}

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins';
+    background-color: #19DEF0;
+}
+
+.container {
+    width: 80%; /*vai utilizar 80% da área livre*/
+    margin: auto; /*vai centralizar o conteúdo*/
+}
+
+#dados {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+    box-shadow: -10px 5px 20px 0px #292a2d; /*sombreado, especifica o eixo x;terceiro eixo=quanto de blair(quanto mais, mais sombreado)*/
+}
+
+#perfil-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.card-padding {
+    padding: 50px;
+}
+
+#card-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#contato {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 7px 50px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none; /*sem decoração para tirar o formato de link*/
+    user-select: none; /*não é possível selecionar e fica com aparência de imagem*/
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 50%;
+}

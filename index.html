@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codaí</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/style6.css">
+</head>
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col"> <!--offset: margem; lg: sufixos que definimos para o desenvolvimento responsivo; 3: tamanho da margem; col-md-3: tamanho das colunas-->
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imagens/WhatsApp Image 2019-12-18 at 20.20.40.jpeg" alt="Foto de perfil" class="card-image mx-auto d-block">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center" id="nome-no-html"></h5>
+                        <hr class="hr">
+                        <p style="text-align: center" id="cargo-no-html"></p>
+                        <div class="botoes-card">
+                            <buttom onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">
+                            Sobre
+                            </buttom> <!--mr:margin right(margem à direita);-1:parâmetro-->
+                            <buttom onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos">
+                            Projetos
+                            </buttom> <!--margem à esquerda-->
+                        </div>
+                        <div class="icons-redes-sociais">
+                            <div class="links-redes-sociais mt-2"> <!--margem top-->
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i> <!--ícones-->
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i> 
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i> 
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle">Bem vindo ao meu currículo</h4>
+                    <p>
+                        Lorem ipsum mattis sagittis tristique ipsum convallis tempus purus, ad donec ultricies quam ullamcorper aenean sem scelerisque blandit, in fusce iaculis praesent leo donec egestas. massa integer hendrerit vehicula suspendisse nostra ornare non quisque in, viverra phasellus malesuada volutpat potenti odio vehicula lobortis, ultrices neque lobortis nisl nibh aliquet erat nisi.
+                    </p>
+                    <p>
+                        vulputate dictum pulvinar felis sed magna viverra lacinia sem faucibus erat curae magna hendrerit, arcu luctus praesent nunc rutrum leo class curae lectus habitant et.
+                    </p>
+                </div>
+
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+                    <p>
+                        <a target="_blank" href="https://www.growdev.com.br">
+                        Site da Growdev - Este site foi desenvolvido em ReactJS.
+                        </a>
+                    </p>
+                    
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone</h4>
+                <p>(51)98638-0189</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p>carolinepintokern@hotmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i> <!--ícones-->
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i> 
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i> 
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mb-2"> <!--margem buttom-->
+            <div class="col-lg-12 col-md-12">
+                <small>2020 <link rel="stylesheet" href="#">Growdev</small>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/index.js"></script>
+    </body>
+</html>
